@@ -7,9 +7,9 @@ import data from "./helper/data"
 const App = ()=>{
   return (
   <div className="App">
-  <div><Navbar /></div>
-  <div><Header/></div>
-  <div><Cards veri={data}/></div>
+    <Navbar />
+    <Header/>
+    <Cards veri={data}/>
     
     
     
